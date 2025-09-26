@@ -6,5 +6,7 @@ import type { createPlanSchemaType } from "./types";
 
 
 export async function generatePlan(input: createPlanSchemaType) {
-  const openai = new OpenAI();
+  console.log(input)
+
+  return input;
 }
